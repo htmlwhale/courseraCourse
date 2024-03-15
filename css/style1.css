@@ -1,1 +1,25 @@
 
+        .tall-section {
+            background-color: #f2f2f2; /* Light grey background to distinguish the section */
+            height: 1000px; /* Tall enough to require scrolling */
+            margin-top: 20px;
+        }
+        .navbar-brand {
+            float: left;
+        }
+        
+        .write-up {
+            padding: 20px;
+            background-color: #eee; /* Light grey, adjust for contrast */
+            margin: 20px 0;
+            
+        }
+        h2{
+            text-align:center;
+        }
+        @media (min-width: 768px) {
+            .navbar-collapse {
+                display: none !important;
+            }
+        }
+   
